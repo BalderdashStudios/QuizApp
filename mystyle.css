@@ -1,0 +1,37 @@
+body{
+	font-family: "Roboto", sans-serif;
+	background-color: black;
+}
+
+p{
+	font-family: "Roboto", sans-serif;
+    font-size: 200%;
+    color: white;
+}
+
+img{
+	width: 20%;
+}
+
+h1{
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+
+.roundCorners {
+	border-radius: 50px;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: #56666B;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: black;
+  color: #EEE1B3;
+}
