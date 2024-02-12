@@ -32,7 +32,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  background-color: black;
+  background-color: white;
   color: #EEE1B3;
 }
 
@@ -67,6 +67,48 @@ a:hover, a:active {
 	background-color: #001829;
 }
 
+.QFail {
+	background-color: #ad0224;
+}
+
+#Q1F {
+	display: none;
+}
+
 #Q2 {
 	display: none;
 }
+
+#Q2F {
+	display: none;
+}
+
+#Q3 {
+	display: none;
+}
+
+#Q3F {
+	display: none;
+}
+
+#Q4 {
+	display: none;
+}
+
+#Q4F {
+	display: none;
+}
+
+#Q5 {
+	display: none;
+}
+
+#Q5F {
+	display: none;
+}
+
+
+#Finish {
+	display: none;
+}
+
