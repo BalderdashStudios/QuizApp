@@ -19,5 +19,9 @@ $(document).ready(function() {
 		$(this).css("font-size", "200%");
 	});
 	
+	$("#Q1Y").click(function(){
+		$("#Q2").toggle();
+	});
+	
 	
 });

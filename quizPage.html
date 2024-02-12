@@ -8,13 +8,22 @@
  </head>
  <body>
    <h1>Quiz</h1>
-   <p id="p1">
-     Question 1: Which ball will go faster when dropped?
-	</p>
-   <img src="BlueBall.png" alt="Blue Ball With a smaller slope." class="roundCorners">
-   <img src="RedBall.png" alt="Red Ball With a larger slope." class="roundCorners">
-   <br>
-   <button type="button" onclick="alert('Correct!')">Red</button>
-   <button type="button" onclick="alert('Wrong!')">Blue</button>
+   <div class="Question roundCorners">
+	  <p id="p1">
+		 Question 1: Which ball will go faster when dropped?
+	  </p>
+	<img src="BlueBall.png" alt="Blue Ball With a smaller slope." class="roundCorners">
+	<img src="RedBall.png" alt="Red Ball With a larger slope." class="roundCorners">
+	<br>
+	<input type="button" id="Q1Y" class="button roundCorners" value="Red" >
+	<input type="button" class="button roundCorners" value="Blue" >
+   </div>
+   <div class="Question roundCorners" id="Q2">
+	  <p id="p1">
+		 Question 2: If an object is high up does it have kinetic energy or potential energy?
+	  </p>
+	<input type="button" onclick="alert('Correct!')"class="button roundCorners" value="Potential" >
+	<input type="button" onclick="alert('Wrong!')"class="button roundCorners" value="Kinetic" >
+   </div>
  </body>
 </html>
