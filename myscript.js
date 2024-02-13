@@ -15,50 +15,11 @@ $(document).ready(function() {
 		$(this).css("font-size", "200%");
 	});
 	
-	$("#Q1Y").click(function(){
-		$("#Q2").toggle();
+	$(".correct").click(function() { 
+		$(this).parent().next().next().fadeToggle();
 	});
 	
-	$("#Q1N").click(function(){
-		$("#Q1F").toggle();
+	$(".incorrect").click(function() { 
+		$(this).parent().next().fadeToggle();
 	});
-	
-	
-	$("#Q2Y").click(function(){
-		$("#Q3").toggle();
-	});
-	
-	$("#Q2N").click(function(){
-		$("#Q2F").toggle();
-	});
-	
-	$("#Q3Y").click(function(){
-		$("#Q4").toggle();
-	});
-	
-	$("#Q3N").click(function(){
-		$("#Q3F").toggle();
-	});
-	
-	$("#Q3N1").click(function(){
-		$("#Q3F").toggle();
-	});
-	
-	$("#Q4Y").click(function(){
-		$("#Q5").toggle();
-	});
-	
-	$("#Q4N").click(function(){
-		$("#Q4F").toggle();
-	});
-	
-	$("#Q5Y").click(function(){
-		$("#Finish").toggle();
-	});
-	
-	$("#Q5N").click(function(){
-		$("#Q5F").toggle();
-	});
-	
-	
 });
