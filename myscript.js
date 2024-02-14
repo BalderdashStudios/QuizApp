@@ -16,10 +16,14 @@ $(document).ready(function() {
 	});
 	
 	$(".correct").click(function() { 
-		$(this).parent().next().next().fadeToggle();
+	    $(this).parent().next().fadeOut();
+		$(this).parent().next().next().fadeIn();
+		$(this).parent().css("backgroundColor", "#02ad19");
 	});
 	
 	$(".incorrect").click(function() { 
 		$(this).parent().next().fadeToggle();
+		$(this).parent().next().next().fadeIn();
+		$(this).parent().css("backgroundColor", "#ad0224");
 	});
 });
